@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MkDocs on Maxime Chemin</title>
+    <link>http://localhost:1313/tags/mkdocs/</link>
+    <description>Recent content in MkDocs on Maxime Chemin</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/mkdocs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian Publish using GitHub Action</title>
+      <link>http://localhost:1313/projects/obsidian-publish-github-action/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/obsidian-publish-github-action/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;In my video about &lt;a href=&#34;https://arkalim.org/blog/aws-saa-certification/&#34;&gt;&lt;strong&gt;How I cleared the AWS SAA Certification Exam&lt;/strong&gt;&lt;/a&gt;, I shared my preparation strategy as well as tips to ace the exam. I also gave a glimpse of my revision notes that I prepared while taking the course and practice exams on Udemy. After that video was out, I got so many comments and DMs, requesting me to share my notes, but the problem was that I took these notes using a note-taking app called Obsidian which stores them in markdown format locally on my Mac. Once I&amp;rsquo;m done editing my notes, I push them to a GitHub repository to make sure I don&amp;rsquo;t lose them if my laptop breaks.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Maxime Chemin</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Maxime Chemin</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automated Image Captioning (Bachelor Thesis)</title>
+      <link>http://localhost:1313/projects/automated-image-captioning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/automated-image-captioning/</guid>
+      <description>&lt;h3 id=&#34;-colab-notebookhttpscolabresearchgooglecomdrive1q553uslyw3ho6p1g46soedxos_vmhxfj&#34;&gt;🔗 &lt;a href=&#34;https://colab.research.google.com/drive/1Q553uslYW3Ho6P1G46SOEDxOS_VmHXfJ&#34;&gt;Colab Notebook&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;In this project, I implemented the paper &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1502.03044&#34;&gt;Show, Attend and Tell: Neural Image Caption Generation with Visual Attention&lt;/a&gt;&lt;/strong&gt;. The neural network, a combination of &lt;strong&gt;CNN&lt;/strong&gt; and &lt;strong&gt;LSTM&lt;/strong&gt;, was trained on the &lt;strong&gt;MS COCO&lt;/strong&gt; dataset and it learns to generate captions from images.&lt;/p&gt;&#xA;&lt;p&gt;As the network generates the caption, word by word, the model’s gaze (attention) shifts across the image. This allows it to focus on those parts of the image which is more relevant for the next word to be generated.&#xA;&lt;img src=&#34;http://localhost:1313/projects/automated-image-captioning/img1.jpg&#34; alt=&#34;Attention Mechanism&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Face Landmarks Detection using CNN</title>
+      <link>http://localhost:1313/projects/face-landmarks-detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/face-landmarks-detection/</guid>
+      <description>&lt;h3 id=&#34;-colab-notebookhttpscolabresearchgooglecomdrive1tow7w_wu4oltogzfz_0krpxmhdfr2gmb&#34;&gt;🔗 &lt;a href=&#34;https://colab.research.google.com/drive/1TOw7W_WU4oltoGZfZ_0krpxmhdFR2gmb&#34;&gt;Colab Notebook&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;-blog-postblogface-landmarks-detection&#34;&gt;🔗 &lt;a href=&#34;../../blog/face-landmarks-detection&#34;&gt;Blog Post&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;In this project, I trained a neural network to localize key points on faces. &lt;strong&gt;Resnet-18&lt;/strong&gt; was used as the model with some slight modifications to the input and output layer. The model was trained on the official &lt;strong&gt;DLib Dataset&lt;/strong&gt; containing &lt;strong&gt;6666 images&lt;/strong&gt; along with corresponding &lt;strong&gt;68-point landmarks&lt;/strong&gt; for each face. Additionally, I wrote a custom data preprocessing pipeline in &lt;strong&gt;PyTorch&lt;/strong&gt; to increase variance in the input images to help the model generalize better. The neural network was trained for 30 epochs before it reached the optima.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gaze-tracking Goggles</title>
+      <link>http://localhost:1313/projects/gaze-tracking-goggles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/gaze-tracking-goggles/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;The aim of the project was to build goggles which could find where the user was looking (gaze), the category of object the user was looking at, and the duration of attention on that object. The goggles had 3 camera modules, one on each eye to track the pupil movement and the third one for mapping the gaze to the real world. Thresholding was used to detect the pupils and contours were used to find its centre. Various important parameters such as pupil velocity, acceleration, and fixation time were calculated for further statistical analysis. &lt;strong&gt;Single Shot Descriptor&lt;/strong&gt;, with &lt;strong&gt;VGG16&lt;/strong&gt; as backbone, was used to detect the objects the user was gazing at. Additionally, a GUI was made using &lt;strong&gt;TkInter&lt;/strong&gt; for ease of use.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OpenQuad</title>
+      <link>http://localhost:1313/projects/openquad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/openquad/</guid>
+      <description>&lt;h3 id=&#34;-githubhttpsgithubcomopenquad-rmiopenquad&#34;&gt;🔗 &lt;a href=&#34;https://github.com/OpenQuad-RMI/openquad&#34;&gt;GitHub&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;The aim of the project is to build an open-source quadcopter platform for research in the field of drone autonomy. Various deep learning and computer vision algorithms will be implemented on the drone including person tracking, gesture control using human pose estimation, optical flow stabilization, obstacle avoidance, and depth estimation using monocular vision. The drone uses a &lt;strong&gt;Pixhawk&lt;/strong&gt; flight controller with &lt;strong&gt;Raspberry Pi&lt;/strong&gt; as a companion computer. &lt;strong&gt;DJI Flame Wheel-450&lt;/strong&gt; is used for the quadcopter frame along with some custom mountings for adding additional components.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Search and Reconnaissance Robot</title>
+      <link>http://localhost:1313/projects/search-and-reconnaissance-robot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/search-and-reconnaissance-robot/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Presented in the 4th International and 19th National Conference on Machine and Mechanisms (&lt;strong&gt;iNaCoMM 2019&lt;/strong&gt;)&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Published in the &lt;strong&gt;Springer 2019&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;-publicationhttpswwwresearchgatenetpublication343361428_search_and_reconnaissance_robot_for_disaster_management&#34;&gt;🔗 &lt;a href=&#34;https://www.researchgate.net/publication/343361428_Search_and_Reconnaissance_Robot_for_Disaster_Management&#34;&gt;Publication&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;Natural disasters like earthquakes and landslides are sudden events that cause widespread destruction and major collateral damage including loss of life. Though disasters can never be prevented, their effects on mankind can surely be reduced. In this paper, we present the design and control of SRR (Search and Reconnaissance Robot), a robot capable of traversing on all terrains and locating survivors stuck under the debris. This will assist the rescue team to focus on recovering the victims, leaving the locating task for the Robots. The unique features of the SRR above existing ATVs are active-articulation, modularity, and assisted-autonomy. Active-articulation allows the SRR to climb objects much tall than itself. Modularity allows the SRR to detach into smaller modules to enter tight spaces where the whole body can’t fit. Assisted-autonomy allows the SRR to detect the presence of objects in front and climb autonomously over them.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Software Engineer (LLM &amp; Backend Infrastructure)</title>
+      <link>http://localhost:1313/experience/16bit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/16bit/</guid>
+      <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed a multi-stage LLM pipeline using Llama3 to extract key information from X-Ray report images, leading to the creation of a new product in our suite.&lt;/li&gt;&#xA;&lt;li&gt;Architected and developed a cloud-native version of the product on Kubernetes and packaged it as a Helm chart for ease of deployment, distribution and versioning.&lt;/li&gt;&#xA;&lt;li&gt;Enhanced operational efficiency by implementing GitOps at scale using ArgoCD, enabling centralized management of multiple K8s clusters, cutting down the release and software update timings by a magnitude.&lt;/li&gt;&#xA;&lt;li&gt;Established robust Kubernetes cluster monitoring and log aggregation through Grafana Agent and Grafana Cloud, allowing remote observability into customer installations.&lt;/li&gt;&#xA;&lt;li&gt;Built CI pipelines on GitHub Actions to automate building and testing of container images upon update to the product code.&lt;/li&gt;&#xA;&lt;li&gt;Automated end-to-end testing using PyTest, effectively saving over 4 hours of manual testing time per sprint.&lt;/li&gt;&#xA;&lt;li&gt;Strategically optimized the product&amp;rsquo;s infrastructure on AWS, reducing the cloud cost by over 50%.&lt;/li&gt;&#xA;&lt;li&gt;Actively engaged with potential customers as the lead developer, providing technical guidance and support to drive customer success.&lt;/li&gt;&#xA;&lt;li&gt;Revamped the entire product codebase, improving reliability and readability while fixing numerous production bugs to ensure the smooth operation of the product on customer sites.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/experience/16bit/img1.jpeg#center&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

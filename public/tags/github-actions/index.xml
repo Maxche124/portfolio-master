@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Actions on Maxime Chemin</title>
+    <link>http://localhost:1313/tags/github-actions/</link>
+    <description>Recent content in GitHub Actions on Maxime Chemin</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/github-actions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kindle to Notion</title>
+      <link>http://localhost:1313/projects/kindle-to-notion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/kindle-to-notion/</guid>
+      <description>&lt;h3 id=&#34;-githubhttpsgithubcomarkalimkindle-to-notion&#34;&gt;🔗 &lt;a href=&#34;https://github.com/arkalim/kindle-to-notion&#34;&gt;GitHub&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;I like reading personal improvement and mindset change type books on &lt;strong&gt;Kindle&lt;/strong&gt; e-reader. Some of these books are downloaded straight from the internet and not from the Kindle store. I take highlights during my reading which I wanted to sync to my Notion workspace. There was no existing app that could do this job, so I developed my own.&lt;/p&gt;&#xA;&lt;p&gt;Kindle exports the highlights as a file named &lt;code&gt;MyClippings.txt&lt;/code&gt;. The &lt;strong&gt;NodeJS&lt;/strong&gt; application reads the &lt;code&gt;MyClipping.txt&lt;/code&gt; file exported by Kindle, parses it using Regex, extracts all the highlights, book names, highlight time etc and creates a JSON. It then uses &lt;strong&gt;Notion API&lt;/strong&gt; to sync these highlights to a database in my Notion workspace. The app maintains a cache (JSON) containing the number of highlights synced for each book. This allows the highlights to be synced incrementally, preventing re-syncing of old highlights.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

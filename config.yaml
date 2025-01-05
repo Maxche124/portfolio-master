@@ -1,6 +1,6 @@
 baseURL: "https://arkalim.netlify.app"
 languageCode: en-us
-title: Abdur Rahman
+title: Maxime Chemin
 theme: PaperMod
 
 menu:
@@ -9,22 +9,18 @@ menu:
       name: Home
       url: /
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /blog
-      weight: 20
     - identifier: projects
       name: Projects
       url: /projects
-      weight: 30
+      weight: 20
     - identifier: experience
       name: Experience
       url: /experience
-      weight: 40
+      weight: 30
     - identifier: search
       name: Search
       url: /search
-      weight: 50
+      weight: 40
     # - identifier: tags
     #   name: Tags
     #   url: /tags
@@ -48,8 +44,8 @@ params:
   # Home Page
   profileMode:
     enabled: true
-    title: "Abdur Rahman"
-    subtitle: Hi 👋 I'm Abdur, a tech enthusiast who loves solving complex problems. As a Software Developer in the Backend Infrastructure team at [**Clio**](https://www.clio.com), I'm building robust systems to transform the legal experience for all. By evening, you can find me pushing the limits of my strength at the gym or whipping up my favorite recipe in the kitchen. Let's connect and create something awesome together!
+    title: "Maxime Chemin"
+    subtitle: Développeur informatique de 20 ans, je suis à la recherche d'un stage de 10 semaines à partir du 28 avril 2025 avec possibilité de continuer avec une alternance d'un an ensuite. Vous trouverez ici mes informations, mes contacts, les différents projets réalisés dans le cadre de mes études et mes expériences professionnelles !
 
  
     imageUrl: "home/casual-small-square.jpeg"
@@ -69,13 +65,11 @@ params:
 
   socialIcons:
     - name: "email"
-      url: "mailto:abdur.rahman.kalim@gmail.com"
+      url: "maxime.chemin59551@gmail.com"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/abdurrahmankalim"
+      url: "https://www.linkedin.com/in/maxime-chemin/"
     - name: "github"
-      url: "https://github.com/arkalim"
-    - name: "youtube"
-      url: "https://www.youtube.com/c/AbdurRahmanKalim"
+      url: "https://github.com/Maxche124"
 
   # text search
   fuseOpts:
