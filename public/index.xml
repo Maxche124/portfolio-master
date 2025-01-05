@@ -1,123 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Maxime Chemin</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Maxime Chemin</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Obsidian Publish using GitHub Action</title>
-      <link>http://localhost:1313/projects/obsidian-publish-github-action/</link>
+      <title>Stage Technicien | Migration de Microsoft Access à PowerBI</title>
+      <link>http://localhost:1313/experience/helpline2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/obsidian-publish-github-action/</guid>
-      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;In my video about &lt;a href=&#34;https://arkalim.org/blog/aws-saa-certification/&#34;&gt;&lt;strong&gt;How I cleared the AWS SAA Certification Exam&lt;/strong&gt;&lt;/a&gt;, I shared my preparation strategy as well as tips to ace the exam. I also gave a glimpse of my revision notes that I prepared while taking the course and practice exams on Udemy. After that video was out, I got so many comments and DMs, requesting me to share my notes, but the problem was that I took these notes using a note-taking app called Obsidian which stores them in markdown format locally on my Mac. Once I&amp;rsquo;m done editing my notes, I push them to a GitHub repository to make sure I don&amp;rsquo;t lose them if my laptop breaks.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kindle to Notion</title>
-      <link>http://localhost:1313/projects/kindle-to-notion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/kindle-to-notion/</guid>
-      <description>&lt;h3 id=&#34;-githubhttpsgithubcomarkalimkindle-to-notion&#34;&gt;🔗 &lt;a href=&#34;https://github.com/arkalim/kindle-to-notion&#34;&gt;GitHub&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;I like reading personal improvement and mindset change type books on &lt;strong&gt;Kindle&lt;/strong&gt; e-reader. Some of these books are downloaded straight from the internet and not from the Kindle store. I take highlights during my reading which I wanted to sync to my Notion workspace. There was no existing app that could do this job, so I developed my own.&lt;/p&gt;&#xA;&lt;p&gt;Kindle exports the highlights as a file named &lt;code&gt;MyClippings.txt&lt;/code&gt;. The &lt;strong&gt;NodeJS&lt;/strong&gt; application reads the &lt;code&gt;MyClipping.txt&lt;/code&gt; file exported by Kindle, parses it using Regex, extracts all the highlights, book names, highlight time etc and creates a JSON. It then uses &lt;strong&gt;Notion API&lt;/strong&gt; to sync these highlights to a database in my Notion workspace. The app maintains a cache (JSON) containing the number of highlights synced for each book. This allows the highlights to be synced incrementally, preventing re-syncing of old highlights.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Automated Image Captioning (Bachelor Thesis)</title>
-      <link>http://localhost:1313/projects/automated-image-captioning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/automated-image-captioning/</guid>
-      <description>&lt;h3 id=&#34;-colab-notebookhttpscolabresearchgooglecomdrive1q553uslyw3ho6p1g46soedxos_vmhxfj&#34;&gt;🔗 &lt;a href=&#34;https://colab.research.google.com/drive/1Q553uslYW3Ho6P1G46SOEDxOS_VmHXfJ&#34;&gt;Colab Notebook&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;In this project, I implemented the paper &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1502.03044&#34;&gt;Show, Attend and Tell: Neural Image Caption Generation with Visual Attention&lt;/a&gt;&lt;/strong&gt;. The neural network, a combination of &lt;strong&gt;CNN&lt;/strong&gt; and &lt;strong&gt;LSTM&lt;/strong&gt;, was trained on the &lt;strong&gt;MS COCO&lt;/strong&gt; dataset and it learns to generate captions from images.&lt;/p&gt;&#xA;&lt;p&gt;As the network generates the caption, word by word, the model’s gaze (attention) shifts across the image. This allows it to focus on those parts of the image which is more relevant for the next word to be generated.&#xA;&lt;img src=&#34;http://localhost:1313/projects/automated-image-captioning/img1.jpg&#34; alt=&#34;Attention Mechanism&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Todo List App</title>
-      <link>http://localhost:1313/projects/todo-list-app/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/todo-list-app/</guid>
-      <description>&lt;h3 id=&#34;-view-apphttpsarkalim-todo-listnetlifyapp&#34;&gt;🔗 &lt;a href=&#34;https://arkalim-todo-list.netlify.app&#34;&gt;View App&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;-githubhttpsgithubcomarkalimtodo-list-app&#34;&gt;🔗 &lt;a href=&#34;https://github.com/arkalim/todo-list-app&#34;&gt;GitHub&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;A to-do list web application built using &lt;strong&gt;React&lt;/strong&gt; that allows the user to add, remove and edit their todos. Todo lists are stored in the browser local storage. I built this app while learning &lt;strong&gt;React&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Face Landmarks Detection using CNN</title>
-      <link>http://localhost:1313/projects/face-landmarks-detection/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/face-landmarks-detection/</guid>
-      <description>&lt;h3 id=&#34;-colab-notebookhttpscolabresearchgooglecomdrive1tow7w_wu4oltogzfz_0krpxmhdfr2gmb&#34;&gt;🔗 &lt;a href=&#34;https://colab.research.google.com/drive/1TOw7W_WU4oltoGZfZ_0krpxmhdFR2gmb&#34;&gt;Colab Notebook&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;-blog-postblogface-landmarks-detection&#34;&gt;🔗 &lt;a href=&#34;../../blog/face-landmarks-detection&#34;&gt;Blog Post&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;In this project, I trained a neural network to localize key points on faces. &lt;strong&gt;Resnet-18&lt;/strong&gt; was used as the model with some slight modifications to the input and output layer. The model was trained on the official &lt;strong&gt;DLib Dataset&lt;/strong&gt; containing &lt;strong&gt;6666 images&lt;/strong&gt; along with corresponding &lt;strong&gt;68-point landmarks&lt;/strong&gt; for each face. Additionally, I wrote a custom data preprocessing pipeline in &lt;strong&gt;PyTorch&lt;/strong&gt; to increase variance in the input images to help the model generalize better. The neural network was trained for 30 epochs before it reached the optima.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaze-tracking Goggles</title>
-      <link>http://localhost:1313/projects/gaze-tracking-goggles/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/gaze-tracking-goggles/</guid>
-      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;The aim of the project was to build goggles which could find where the user was looking (gaze), the category of object the user was looking at, and the duration of attention on that object. The goggles had 3 camera modules, one on each eye to track the pupil movement and the third one for mapping the gaze to the real world. Thresholding was used to detect the pupils and contours were used to find its centre. Various important parameters such as pupil velocity, acceleration, and fixation time were calculated for further statistical analysis. &lt;strong&gt;Single Shot Descriptor&lt;/strong&gt;, with &lt;strong&gt;VGG16&lt;/strong&gt; as backbone, was used to detect the objects the user was gazing at. Additionally, a GUI was made using &lt;strong&gt;TkInter&lt;/strong&gt; for ease of use.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/experience/helpline2/</guid>
+      <description>Helpline Lille | Marcq-en-Baroeul, France</description>
     </item>
     <item>
       <title>OpenQuad</title>
       <link>http://localhost:1313/projects/openquad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/openquad/</guid>
-      <description>&lt;h3 id=&#34;-githubhttpsgithubcomopenquad-rmiopenquad&#34;&gt;🔗 &lt;a href=&#34;https://github.com/OpenQuad-RMI/openquad&#34;&gt;GitHub&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;The aim of the project is to build an open-source quadcopter platform for research in the field of drone autonomy. Various deep learning and computer vision algorithms will be implemented on the drone including person tracking, gesture control using human pose estimation, optical flow stabilization, obstacle avoidance, and depth estimation using monocular vision. The drone uses a &lt;strong&gt;Pixhawk&lt;/strong&gt; flight controller with &lt;strong&gt;Raspberry Pi&lt;/strong&gt; as a companion computer. &lt;strong&gt;DJI Flame Wheel-450&lt;/strong&gt; is used for the quadcopter frame along with some custom mountings for adding additional components.&lt;/p&gt;</description>
+      <description>Open-souce platform for drone automation</description>
     </item>
     <item>
-      <title>Search and Reconnaissance Robot</title>
-      <link>http://localhost:1313/projects/search-and-reconnaissance-robot/</link>
+      <title>Technicien Helpdesk</title>
+      <link>http://localhost:1313/experience/helpline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/search-and-reconnaissance-robot/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Presented in the 4th International and 19th National Conference on Machine and Mechanisms (&lt;strong&gt;iNaCoMM 2019&lt;/strong&gt;)&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Published in the &lt;strong&gt;Springer 2019&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;-publicationhttpswwwresearchgatenetpublication343361428_search_and_reconnaissance_robot_for_disaster_management&#34;&gt;🔗 &lt;a href=&#34;https://www.researchgate.net/publication/343361428_Search_and_Reconnaissance_Robot_for_Disaster_Management&#34;&gt;Publication&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;Natural disasters like earthquakes and landslides are sudden events that cause widespread destruction and major collateral damage including loss of life. Though disasters can never be prevented, their effects on mankind can surely be reduced. In this paper, we present the design and control of SRR (Search and Reconnaissance Robot), a robot capable of traversing on all terrains and locating survivors stuck under the debris. This will assist the rescue team to focus on recovering the victims, leaving the locating task for the Robots. The unique features of the SRR above existing ATVs are active-articulation, modularity, and assisted-autonomy. Active-articulation allows the SRR to climb objects much tall than itself. Modularity allows the SRR to detach into smaller modules to enter tight spaces where the whole body can’t fit. Assisted-autonomy allows the SRR to detect the presence of objects in front and climb autonomously over them.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/experience/helpline/</guid>
+      <description>Helpline Lille | Marcq-en-Baroeul, France</description>
     </item>
     <item>
-      <title>SEBART-Pro</title>
-      <link>http://localhost:1313/projects/sebart-pro/</link>
+      <title>Employé Libre Service</title>
+      <link>http://localhost:1313/experience/grandfrais/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/sebart-pro/</guid>
-      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;I worked on this project single-handedly during the summer break following my freshman year at NIT- Trichy. &lt;strong&gt;SEBART-Pro&lt;/strong&gt; is a robot that follows a ball while balancing on two wheels. It can also recognize traffic signs and act accordingly. It has two stepper motors for precise position control and used an &lt;strong&gt;Arduino Nano&lt;/strong&gt; as the microcontroller. The robot senses the tilt using an &lt;strong&gt;MPU-6050 (6-axis gyroscope and accelerometer)&lt;/strong&gt; and converts the values from these sensors into angles using a &lt;strong&gt;Kalman Filter&lt;/strong&gt;. It uses the &lt;strong&gt;PID control algorithm&lt;/strong&gt; to balance on two wheels and a simple &lt;strong&gt;Convolutional Neural Network&lt;/strong&gt; is used to recognize traffic signs.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Software Developer II (Backend Infrastructure)</title>
-      <link>http://localhost:1313/experience/clio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/clio/</guid>
-      <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;p&gt;Building scalable backend infrastructure to transform the legal experience for all&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/experience/clio/img1.png#center&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Software Engineer (LLM &amp; Backend Infrastructure)</title>
-      <link>http://localhost:1313/experience/16bit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/16bit/</guid>
-      <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed a multi-stage LLM pipeline using Llama3 to extract key information from X-Ray report images, leading to the creation of a new product in our suite.&lt;/li&gt;&#xA;&lt;li&gt;Architected and developed a cloud-native version of the product on Kubernetes and packaged it as a Helm chart for ease of deployment, distribution and versioning.&lt;/li&gt;&#xA;&lt;li&gt;Enhanced operational efficiency by implementing GitOps at scale using ArgoCD, enabling centralized management of multiple K8s clusters, cutting down the release and software update timings by a magnitude.&lt;/li&gt;&#xA;&lt;li&gt;Established robust Kubernetes cluster monitoring and log aggregation through Grafana Agent and Grafana Cloud, allowing remote observability into customer installations.&lt;/li&gt;&#xA;&lt;li&gt;Built CI pipelines on GitHub Actions to automate building and testing of container images upon update to the product code.&lt;/li&gt;&#xA;&lt;li&gt;Automated end-to-end testing using PyTest, effectively saving over 4 hours of manual testing time per sprint.&lt;/li&gt;&#xA;&lt;li&gt;Strategically optimized the product&amp;rsquo;s infrastructure on AWS, reducing the cloud cost by over 50%.&lt;/li&gt;&#xA;&lt;li&gt;Actively engaged with potential customers as the lead developer, providing technical guidance and support to drive customer success.&lt;/li&gt;&#xA;&lt;li&gt;Revamped the entire product codebase, improving reliability and readability while fixing numerous production bugs to ensure the smooth operation of the product on customer sites.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/experience/16bit/img1.jpeg#center&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Backend Engineer</title>
-      <link>http://localhost:1313/experience/buyerassist/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/buyerassist/</guid>
-      <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed an event-driven serverless integration pipeline using AWS Lambda and EventBridge, facilitating seamless bidirectional synchronization of customer data between Salesforce and Boomerang, thereby enhancing customer onboarding experience.&lt;/li&gt;&#xA;&lt;li&gt;Developed a Slack bot that sent interactive daily notifications to customers, facilitating direct actions such as task assignments and completions from within Slack. This streamlined operations and boosted sales by over 50%.&lt;/li&gt;&#xA;&lt;li&gt;Engineered a job tracking system to monitor asynchronous data transfer jobs via AWS AppFlow. This dramatically enhanced the reliability and transparency of data transfers between Boomerang and Salesforce.&lt;/li&gt;&#xA;&lt;li&gt;Designed and implemented a configuration-driven framework to extend the pattern-matching capability of AWS EventBridge, preventing over 1000 false invocations of AWS Lambda functions every day.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/experience/buyerassist/img1.jpeg#center&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Remote Research Intern</title>
-      <link>http://localhost:1313/experience/tumunich/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/tumunich/</guid>
-      <description>&lt;h3 id=&#34;-githubhttpsgithubcomarkalimpytorch-cyclegan-and-pix2pixtree3d_seg&#34;&gt;🔗 &lt;a href=&#34;https://github.com/arkalim/pytorch-CycleGAN-and-pix2pix/tree/3D_Seg&#34;&gt;GitHub&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Guide:&lt;/strong&gt; &lt;strong&gt;Mohammad Farid Azampour&lt;/strong&gt; (Visiting Researcher at Chair for Computer Aided Medical Procedures, TU Munich)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Rearchitected Pix2Pix, a CGAN architecture, to generate Ultrasound (US) scans from MRI scans&lt;/li&gt;&#xA;&lt;li&gt;Addressed the challenge of structural dissimilarity between MRI and US scans due to data collection methods&lt;/li&gt;&#xA;&lt;li&gt;Developed a custom loss function combining CGAN loss and Dice Loss for improved image segmentation&lt;/li&gt;&#xA;&lt;li&gt;Implemented the loss function to encourage the generator to eliminate structural deformation in the generated US scans&lt;/li&gt;&#xA;&lt;li&gt;Leveraged remote access to TU-Munich&amp;rsquo;s cluster computers for fast model training&lt;/li&gt;&#xA;&lt;li&gt;Utilized TU-Munich&amp;rsquo;s Discourse forum for collaboration which drove the project to fruition&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Software Intern</title>
-      <link>http://localhost:1313/experience/origin-health/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/origin-health/</guid>
-      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Guide:&lt;/strong&gt; &lt;strong&gt;Dr. Sripad Krishna Devalla&lt;/strong&gt; (co-founder and CTO at OriginHealth)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed a configuration-driven framework with data preprocessing pipeline for training deep learning models on AWS EC2 instances&lt;/li&gt;&#xA;&lt;li&gt;Standardized the training procedure for ML models, saving over 100 hours of development time for the ML team&lt;/li&gt;&#xA;&lt;li&gt;Worked on fetal head segmentation using the developed framework&lt;/li&gt;&#xA;&lt;li&gt;Gained insights into the applications of AI and Computer Vision in medical diagnosis&lt;/li&gt;&#xA;&lt;li&gt;Acquired experience in working with limited and sensitive healthcare data&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/experience/origin-health/img1.jpeg#center&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/experience/origin-health/img2.jpeg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/experience/origin-health/img3.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Computer Vision Intern</title>
-      <link>http://localhost:1313/experience/iit-madras/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/iit-madras/</guid>
-      <description>&lt;h3 id=&#34;-githubhttpsgithubcomarkalimtensorflowtreemastervlocnet&#34;&gt;🔗 &lt;a href=&#34;https://github.com/arkalim/Tensorflow/tree/master/VLocNet&#34;&gt;GitHub&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Guide:&lt;/strong&gt; &lt;strong&gt;Prof. Dr. Pratyush Kumar&lt;/strong&gt; (Assistant Professor, Dept. of Computer Science, IIT Madras)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Implemented a Convolutional Neural Network (CNN) for 6-DoF Global Pose Regression and Odometry Estimation&lt;/li&gt;&#xA;&lt;li&gt;Developed a deep learning model in TensorFlow to estimate the camera pose from consecutive monocular images&lt;/li&gt;&#xA;&lt;li&gt;The model demonstrated superior performance compared to traditional feature-based visual localization algorithms, especially in texture-less regions&lt;/li&gt;&#xA;&lt;li&gt;The neural network was later utilized for robot localization in GPS-denied environments&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/experience/iit-madras/img1.jpeg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/experience/iit-madras/img2.jpeg&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/experience/iit-madras/img3.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Search</title>
-      <link>http://localhost:1313/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/</guid>
-      <description>search</description>
+      <guid>http://localhost:1313/experience/grandfrais/</guid>
+      <description>Grand Frais | Seclin, France</description>
     </item>
   </channel>
 </rss>

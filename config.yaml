@@ -48,12 +48,12 @@ params:
     subtitle: Développeur informatique de 20 ans, je suis à la recherche d'un stage de 10 semaines à partir du 28 avril 2025 avec possibilité de continuer avec une alternance d'un an ensuite. Vous trouverez ici mes informations, mes contacts, les différents projets réalisés dans le cadre de mes études et mes expériences professionnelles !
 
  
-    imageUrl: "home/casual-small-square.jpeg"
+    imageUrl: "home/me.jpg"
     imageWidth: 220
     imageHeight: 220
-    # buttons:
-    #   - name: Resume
-    #     url: ""
+    buttons:
+      - name: CV
+        url: "https://drive.google.com/drive/folders/1Ic33zlqansu4t7Xg0YK735t-2GRhWgQq?usp=drive_link"
 
   # List View
   hideDescriptionInList: false

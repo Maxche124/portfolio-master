@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>OAuth2.0 on Maxime Chemin</title>
-    <link>http://localhost:1313/tags/oauth2.0/</link>
+    <link>http://localhost:50605/tags/oauth2.0/</link>
     <description>Recent content in OAuth2.0 on Maxime Chemin</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/oauth2.0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50605/tags/oauth2.0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Backend Engineer</title>
-      <link>http://localhost:1313/experience/buyerassist/</link>
+      <link>http://localhost:50605/experience/buyerassist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/buyerassist/</guid>
-      <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed an event-driven serverless integration pipeline using AWS Lambda and EventBridge, facilitating seamless bidirectional synchronization of customer data between Salesforce and Boomerang, thereby enhancing customer onboarding experience.&lt;/li&gt;&#xA;&lt;li&gt;Developed a Slack bot that sent interactive daily notifications to customers, facilitating direct actions such as task assignments and completions from within Slack. This streamlined operations and boosted sales by over 50%.&lt;/li&gt;&#xA;&lt;li&gt;Engineered a job tracking system to monitor asynchronous data transfer jobs via AWS AppFlow. This dramatically enhanced the reliability and transparency of data transfers between Boomerang and Salesforce.&lt;/li&gt;&#xA;&lt;li&gt;Designed and implemented a configuration-driven framework to extend the pattern-matching capability of AWS EventBridge, preventing over 1000 false invocations of AWS Lambda functions every day.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/experience/buyerassist/img1.jpeg#center&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:50605/experience/buyerassist/</guid>
+      <description>BuyerAssist (India)</description>
     </item>
   </channel>
 </rss>

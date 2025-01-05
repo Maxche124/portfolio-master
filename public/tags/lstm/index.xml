@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LSTM on Maxime Chemin</title>
     <link>http://localhost:1313/tags/lstm/</link>
     <description>Recent content in LSTM on Maxime Chemin</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/lstm/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +12,7 @@
       <link>http://localhost:1313/projects/automated-image-captioning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/automated-image-captioning/</guid>
-      <description>&lt;h3 id=&#34;-colab-notebookhttpscolabresearchgooglecomdrive1q553uslyw3ho6p1g46soedxos_vmhxfj&#34;&gt;🔗 &lt;a href=&#34;https://colab.research.google.com/drive/1Q553uslYW3Ho6P1G46SOEDxOS_VmHXfJ&#34;&gt;Colab Notebook&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;In this project, I implemented the paper &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1502.03044&#34;&gt;Show, Attend and Tell: Neural Image Caption Generation with Visual Attention&lt;/a&gt;&lt;/strong&gt;. The neural network, a combination of &lt;strong&gt;CNN&lt;/strong&gt; and &lt;strong&gt;LSTM&lt;/strong&gt;, was trained on the &lt;strong&gt;MS COCO&lt;/strong&gt; dataset and it learns to generate captions from images.&lt;/p&gt;&#xA;&lt;p&gt;As the network generates the caption, word by word, the model’s gaze (attention) shifts across the image. This allows it to focus on those parts of the image which is more relevant for the next word to be generated.&#xA;&lt;img src=&#34;http://localhost:1313/projects/automated-image-captioning/img1.jpg&#34; alt=&#34;Attention Mechanism&#34;&gt;&lt;/p&gt;</description>
+      <description>Can computers summarize the contents of an image?</description>
     </item>
   </channel>
 </rss>

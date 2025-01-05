@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LangChain on Maxime Chemin</title>
     <link>http://localhost:1313/tags/langchain/</link>
     <description>Recent content in LangChain on Maxime Chemin</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/langchain/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Software Engineer (LLM &amp; Backend Infrastructure)</title>
-      <link>http://localhost:1313/experience/16bit/</link>
+      <title>Employé Libre Service</title>
+      <link>http://localhost:1313/experience/grandfrais/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/16bit/</guid>
-      <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed a multi-stage LLM pipeline using Llama3 to extract key information from X-Ray report images, leading to the creation of a new product in our suite.&lt;/li&gt;&#xA;&lt;li&gt;Architected and developed a cloud-native version of the product on Kubernetes and packaged it as a Helm chart for ease of deployment, distribution and versioning.&lt;/li&gt;&#xA;&lt;li&gt;Enhanced operational efficiency by implementing GitOps at scale using ArgoCD, enabling centralized management of multiple K8s clusters, cutting down the release and software update timings by a magnitude.&lt;/li&gt;&#xA;&lt;li&gt;Established robust Kubernetes cluster monitoring and log aggregation through Grafana Agent and Grafana Cloud, allowing remote observability into customer installations.&lt;/li&gt;&#xA;&lt;li&gt;Built CI pipelines on GitHub Actions to automate building and testing of container images upon update to the product code.&lt;/li&gt;&#xA;&lt;li&gt;Automated end-to-end testing using PyTest, effectively saving over 4 hours of manual testing time per sprint.&lt;/li&gt;&#xA;&lt;li&gt;Strategically optimized the product&amp;rsquo;s infrastructure on AWS, reducing the cloud cost by over 50%.&lt;/li&gt;&#xA;&lt;li&gt;Actively engaged with potential customers as the lead developer, providing technical guidance and support to drive customer success.&lt;/li&gt;&#xA;&lt;li&gt;Revamped the entire product codebase, improving reliability and readability while fixing numerous production bugs to ensure the smooth operation of the product on customer sites.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/experience/16bit/img1.jpeg#center&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/experience/grandfrais/</guid>
+      <description>Grand Frais | Seclin, France</description>
     </item>
   </channel>
 </rss>

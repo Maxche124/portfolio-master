@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Raspberry Pi on Maxime Chemin</title>
     <link>http://localhost:1313/tags/raspberry-pi/</link>
     <description>Recent content in Raspberry Pi on Maxime Chemin</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,21 +12,21 @@
       <link>http://localhost:1313/projects/openquad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/openquad/</guid>
-      <description>&lt;h3 id=&#34;-githubhttpsgithubcomopenquad-rmiopenquad&#34;&gt;🔗 &lt;a href=&#34;https://github.com/OpenQuad-RMI/openquad&#34;&gt;GitHub&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;The aim of the project is to build an open-source quadcopter platform for research in the field of drone autonomy. Various deep learning and computer vision algorithms will be implemented on the drone including person tracking, gesture control using human pose estimation, optical flow stabilization, obstacle avoidance, and depth estimation using monocular vision. The drone uses a &lt;strong&gt;Pixhawk&lt;/strong&gt; flight controller with &lt;strong&gt;Raspberry Pi&lt;/strong&gt; as a companion computer. &lt;strong&gt;DJI Flame Wheel-450&lt;/strong&gt; is used for the quadcopter frame along with some custom mountings for adding additional components.&lt;/p&gt;</description>
+      <description>Open-souce platform for drone automation</description>
     </item>
     <item>
       <title>Search and Reconnaissance Robot</title>
       <link>http://localhost:1313/projects/search-and-reconnaissance-robot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/search-and-reconnaissance-robot/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Presented in the 4th International and 19th National Conference on Machine and Mechanisms (&lt;strong&gt;iNaCoMM 2019&lt;/strong&gt;)&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Published in the &lt;strong&gt;Springer 2019&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;-publicationhttpswwwresearchgatenetpublication343361428_search_and_reconnaissance_robot_for_disaster_management&#34;&gt;🔗 &lt;a href=&#34;https://www.researchgate.net/publication/343361428_Search_and_Reconnaissance_Robot_for_Disaster_Management&#34;&gt;Publication&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;Natural disasters like earthquakes and landslides are sudden events that cause widespread destruction and major collateral damage including loss of life. Though disasters can never be prevented, their effects on mankind can surely be reduced. In this paper, we present the design and control of SRR (Search and Reconnaissance Robot), a robot capable of traversing on all terrains and locating survivors stuck under the debris. This will assist the rescue team to focus on recovering the victims, leaving the locating task for the Robots. The unique features of the SRR above existing ATVs are active-articulation, modularity, and assisted-autonomy. Active-articulation allows the SRR to climb objects much tall than itself. Modularity allows the SRR to detach into smaller modules to enter tight spaces where the whole body can’t fit. Assisted-autonomy allows the SRR to detect the presence of objects in front and climb autonomously over them.&lt;/p&gt;</description>
+      <description>An all-terrain robot for disaster management!</description>
     </item>
     <item>
       <title>SEBART-Pro</title>
       <link>http://localhost:1313/projects/sebart-pro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/sebart-pro/</guid>
-      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;I worked on this project single-handedly during the summer break following my freshman year at NIT- Trichy. &lt;strong&gt;SEBART-Pro&lt;/strong&gt; is a robot that follows a ball while balancing on two wheels. It can also recognize traffic signs and act accordingly. It has two stepper motors for precise position control and used an &lt;strong&gt;Arduino Nano&lt;/strong&gt; as the microcontroller. The robot senses the tilt using an &lt;strong&gt;MPU-6050 (6-axis gyroscope and accelerometer)&lt;/strong&gt; and converts the values from these sensors into angles using a &lt;strong&gt;Kalman Filter&lt;/strong&gt;. It uses the &lt;strong&gt;PID control algorithm&lt;/strong&gt; to balance on two wheels and a simple &lt;strong&gt;Convolutional Neural Network&lt;/strong&gt; is used to recognize traffic signs.&lt;/p&gt;</description>
+      <description>A smart self-balancing robot!</description>
     </item>
   </channel>
 </rss>

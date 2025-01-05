@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Docker on Maxime Chemin</title>
     <link>http://localhost:1313/tags/docker/</link>
     <description>Recent content in Docker on Maxime Chemin</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,21 +12,21 @@
       <link>http://localhost:1313/projects/obsidian-publish-github-action/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/obsidian-publish-github-action/</guid>
-      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;In my video about &lt;a href=&#34;https://arkalim.org/blog/aws-saa-certification/&#34;&gt;&lt;strong&gt;How I cleared the AWS SAA Certification Exam&lt;/strong&gt;&lt;/a&gt;, I shared my preparation strategy as well as tips to ace the exam. I also gave a glimpse of my revision notes that I prepared while taking the course and practice exams on Udemy. After that video was out, I got so many comments and DMs, requesting me to share my notes, but the problem was that I took these notes using a note-taking app called Obsidian which stores them in markdown format locally on my Mac. Once I&amp;rsquo;m done editing my notes, I push them to a GitHub repository to make sure I don&amp;rsquo;t lose them if my laptop breaks.&lt;/p&gt;</description>
+      <description>A custom GitHub Action to publish Obsidian notes as a website</description>
     </item>
     <item>
       <title>Kindle to Notion</title>
       <link>http://localhost:1313/projects/kindle-to-notion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/kindle-to-notion/</guid>
-      <description>&lt;h3 id=&#34;-githubhttpsgithubcomarkalimkindle-to-notion&#34;&gt;🔗 &lt;a href=&#34;https://github.com/arkalim/kindle-to-notion&#34;&gt;GitHub&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;I like reading personal improvement and mindset change type books on &lt;strong&gt;Kindle&lt;/strong&gt; e-reader. Some of these books are downloaded straight from the internet and not from the Kindle store. I take highlights during my reading which I wanted to sync to my Notion workspace. There was no existing app that could do this job, so I developed my own.&lt;/p&gt;&#xA;&lt;p&gt;Kindle exports the highlights as a file named &lt;code&gt;MyClippings.txt&lt;/code&gt;. The &lt;strong&gt;NodeJS&lt;/strong&gt; application reads the &lt;code&gt;MyClipping.txt&lt;/code&gt; file exported by Kindle, parses it using Regex, extracts all the highlights, book names, highlight time etc and creates a JSON. It then uses &lt;strong&gt;Notion API&lt;/strong&gt; to sync these highlights to a database in my Notion workspace. The app maintains a cache (JSON) containing the number of highlights synced for each book. This allows the highlights to be synced incrementally, preventing re-syncing of old highlights.&lt;/p&gt;</description>
+      <description>A way to seamlessly transfer your Kindle highlights to Notion Database!</description>
     </item>
     <item>
-      <title>Software Engineer (LLM &amp; Backend Infrastructure)</title>
-      <link>http://localhost:1313/experience/16bit/</link>
+      <title>Employé Libre Service</title>
+      <link>http://localhost:1313/experience/grandfrais/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/16bit/</guid>
-      <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed a multi-stage LLM pipeline using Llama3 to extract key information from X-Ray report images, leading to the creation of a new product in our suite.&lt;/li&gt;&#xA;&lt;li&gt;Architected and developed a cloud-native version of the product on Kubernetes and packaged it as a Helm chart for ease of deployment, distribution and versioning.&lt;/li&gt;&#xA;&lt;li&gt;Enhanced operational efficiency by implementing GitOps at scale using ArgoCD, enabling centralized management of multiple K8s clusters, cutting down the release and software update timings by a magnitude.&lt;/li&gt;&#xA;&lt;li&gt;Established robust Kubernetes cluster monitoring and log aggregation through Grafana Agent and Grafana Cloud, allowing remote observability into customer installations.&lt;/li&gt;&#xA;&lt;li&gt;Built CI pipelines on GitHub Actions to automate building and testing of container images upon update to the product code.&lt;/li&gt;&#xA;&lt;li&gt;Automated end-to-end testing using PyTest, effectively saving over 4 hours of manual testing time per sprint.&lt;/li&gt;&#xA;&lt;li&gt;Strategically optimized the product&amp;rsquo;s infrastructure on AWS, reducing the cloud cost by over 50%.&lt;/li&gt;&#xA;&lt;li&gt;Actively engaged with potential customers as the lead developer, providing technical guidance and support to drive customer success.&lt;/li&gt;&#xA;&lt;li&gt;Revamped the entire product codebase, improving reliability and readability while fixing numerous production bugs to ensure the smooth operation of the product on customer sites.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/experience/16bit/img1.jpeg#center&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/experience/grandfrais/</guid>
+      <description>Grand Frais | Seclin, France</description>
     </item>
   </channel>
 </rss>
