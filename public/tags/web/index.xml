@@ -28,5 +28,12 @@
       <guid>http://localhost:1313/projects/chatsparminous/</guid>
       <description>Création d&amp;#39;un site web pour l&amp;#39;association &amp;#34;Chats Par Minous&amp;#34;</description>
     </item>
+    <item>
+      <title>Juste Prime</title>
+      <link>http://localhost:1313/projects/justeprime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/justeprime/</guid>
+      <description>Parodie du jeu &amp;#34;Juste Prix&amp;#34; en Flask</description>
+    </item>
   </channel>
 </rss>
