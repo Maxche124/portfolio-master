@@ -7,7 +7,7 @@ tags: ["Javascript", "PHP", "HTML", "CSS", "Web"]
 showToc: false
 weight: 140
 --- 
-### 🔗 [GitHub](https://github.com/Maxche124/marathon-web-24)
+### 🔗 [GitHub](https://github.com/Hugz12/ChatsParMinou)
 
 ## Description
 
