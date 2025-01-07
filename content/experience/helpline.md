@@ -6,6 +6,8 @@ draft: false
 tags: []
 showToc: false
 weight: 301
+cover:
+    image: "/experience/helpline/helpline_logo.png"
 --- 
 
 ### Description

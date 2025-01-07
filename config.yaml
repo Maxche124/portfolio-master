@@ -45,7 +45,7 @@ params:
   profileMode:
     enabled: true
     title: "Maxime Chemin"
-    subtitle: Développeur informatique de 20 ans, je suis à la recherche d'un stage de 10 semaines à partir du 28 avril 2025 avec possibilité de continuer avec une alternance d'un an ensuite. Vous trouverez ici mes informations, mes contacts, les différents projets réalisés dans le cadre de mes études et mes expériences professionnelles !
+    subtitle: Développeur informatique de 20 ans, je suis à la recherche d'un stage de 10 semaines à partir du 28 avril 2025, avec possibilité de continuer avec une alternance d'un an. Vous trouverez ici mes informations, mes contacts, les différents projets réalisés dans le cadre de mes études et mes précédentes expériences professionnelles.
 
  
     imageUrl: "home/me.jpg"
@@ -64,8 +64,8 @@ params:
     hiddenInSingle: false # hide on single page
 
   socialIcons:
-    - name: "email"
-      url: "maxime.chemin59551@gmail.com"
+    # - name: "email"
+    #  url: "maxime.chemin59551@gmail.com"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/maxime-chemin/"
     - name: "github"

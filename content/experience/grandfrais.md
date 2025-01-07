@@ -6,6 +6,8 @@ draft: false
 tags: []
 showToc: false
 weight: 400
+cover:
+    image: "/experience/grandfrais/grand_frais_logo.png"
 --- 
 
 ### Description
