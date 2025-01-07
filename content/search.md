@@ -1,8 +1,8 @@
 ---
-title: "Search"
+title: "Rechercher"
 layout: "search"
 url: "/search"
-placeholder: "Search my portfolio..."
+placeholder: "Rechercher dans mon portfolio..."
 summary: "search"
 # description: "Search for any keyword..."
 ---
