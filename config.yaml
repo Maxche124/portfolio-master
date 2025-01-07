@@ -11,11 +11,11 @@ menu:
       weight: 10
     - identifier: projects
       name: Projets
-      url: /projets
+      url: /projects
       weight: 20
     - identifier: experience
       name: Expériences
-      url: /experiences
+      url: /experience
       weight: 30
     - identifier: search
       name: Search
