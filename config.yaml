@@ -1,0 +1,95 @@
+baseURL: "https://arkalim.netlify.app"
+languageCode: en-us
+title: Maxime Chemin
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Accueil
+      url: /
+      weight: 10
+    - identifier: projects
+      name: Projets
+      url: /projects
+      weight: 20
+    - identifier: experience
+      name: Expériences
+      url: /experience
+      weight: 30
+    - identifier: search
+      name: Rechercher
+      url: /search
+      weight: 40
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags
+    #   weight: 60
+    # - identifier: notes
+    #   name: Notes
+    #   url: https://notes.arkalim.org
+    #   weight: 70
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Maxime Chemin"
+    subtitle: Développeur informatique de 20 ans, je suis à la recherche d'un stage de 10 semaines à partir du 28 avril 2025, avec possibilité de continuer avec une alternance d'un an. Vous trouverez ici mon CV, mes réseaux, les différents projets réalisés dans le cadre de mes études et mes précédentes expériences professionnelles.
+
+ 
+    imageUrl: "home/me.jpg"
+    imageWidth: 186
+    imageHeight: 252
+    buttons:
+      - name: CV
+        url: "https://drive.google.com/drive/folders/1Ic33zlqansu4t7Xg0YK735t-2GRhWgQq?usp=drive_link"
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    # - name: "email"
+    #  url: "maxime.chemin59551@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/maxime-chemin/"
+    - name: "github"
+      url: "https://github.com/Maxche124"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
