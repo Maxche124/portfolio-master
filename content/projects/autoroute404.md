@@ -5,7 +5,7 @@ dateString: Avril 2025
 draft: false
 tags: ["Angular", "TypeScript", "Material", "Mobile", "Kotlin", "Laravel", "PHP", "Web"]
 showToc: false
-weight: 120
+weight: 20
 --- 
 ### 🔗 [GitHub](https://github.com/Maxche124/sa-3-01-phase-2)
 
